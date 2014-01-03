@@ -1,4 +1,4 @@
-hello-conekta-php-cake
-======================
+## hello-conekta-php-cake
+CakePHP app which implements payment calls via conekta-php.
 
-An example of Conekta's usage in CakePHP
+To run it, install LAMP or XAMPP, CakePHP and replace the app folder contents with these files and folders. The app should run on http://localhost.
