@@ -1,0 +1,130 @@
+[
+    {
+        "name": "cakephp/debug_kit",
+        "version": "2.2.2",
+        "version_normalized": "2.2.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/cakephp/debug_kit.git",
+            "reference": "0dd9f6cf6250817052b6a7cf2cc0d2d8d7e26e90"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/cakephp/debug_kit/zipball/0dd9f6cf6250817052b6a7cf2cc0d2d8d7e26e90",
+            "reference": "0dd9f6cf6250817052b6a7cf2cc0d2d8d7e26e90",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "*",
+            "php": ">=5.3.0"
+        },
+        "time": "2013-11-07 18:15:29",
+        "type": "cakephp-plugin",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.2.x-dev"
+            },
+            "installer-name": "DebugKit"
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mark Story",
+                "homepage": "http://mark-story.com",
+                "role": "Author"
+            },
+            {
+                "name": "CakePHP Community",
+                "homepage": "https://github.com/cakephp/debug_kit/graphs/contributors"
+            }
+        ],
+        "description": "CakePHP Debug Kit",
+        "homepage": "https://github.com/cakephp/debug_kit",
+        "keywords": [
+            "cakephp",
+            "debug",
+            "kit"
+        ]
+    },
+    {
+        "name": "composer/installers",
+        "version": "v1.0.8",
+        "version_normalized": "1.0.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers.git",
+            "reference": "c87cfc35882eb50df3eef1734bfa52fbcd6c782c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer/installers/zipball/c87cfc35882eb50df3eef1734bfa52fbcd6c782c",
+            "reference": "c87cfc35882eb50df3eef1734bfa52fbcd6c782c",
+            "shasum": ""
+        },
+        "replace": {
+            "shama/baton": "*"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev",
+            "phpunit/phpunit": "3.7.*"
+        },
+        "time": "2013-12-24 18:04:46",
+        "type": "composer-installer",
+        "extra": {
+            "class": "Composer\\Installers\\Installer",
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Composer\\Installers\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Robinson Young",
+                "email": "kyle@dontkry.com",
+                "homepage": "http://dontkry.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "A multi-framework Composer library installer",
+        "homepage": "http://composer.github.com/installers/",
+        "keywords": [
+            "TYPO3 CMS",
+            "TYPO3 Flow",
+            "TYPO3 Neos",
+            "agl",
+            "cakephp",
+            "codeigniter",
+            "concrete5",
+            "drupal",
+            "elgg",
+            "fuelphp",
+            "installer",
+            "joomla",
+            "kohana",
+            "laravel",
+            "li3",
+            "lithium",
+            "mako",
+            "modulework",
+            "phpbb",
+            "ppi",
+            "silverstripe",
+            "symfony",
+            "wordpress",
+            "zend"
+        ]
+    }
+]
