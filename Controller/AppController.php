@@ -21,7 +21,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 App::uses('Controller', 'Controller');
-require_once("/home/mauricio/rails_projects/conekta-php-new/lib/Conekta.php");
+require_once("/path/to/conekta-php-new/lib/Conekta.php");
 /**
  * Application Controller
  *
