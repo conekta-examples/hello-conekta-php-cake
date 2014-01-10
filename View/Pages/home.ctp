@@ -11,6 +11,6 @@
 	echo "<br/>";
 	echo $this->Html->link(
     'Notifications',
-    array('controller' => 'webhooks', 'action' => 'index')
+    array('controller' => 'events', 'action' => 'index')
 	);
 ?>
