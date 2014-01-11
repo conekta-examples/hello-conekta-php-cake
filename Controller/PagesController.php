@@ -86,7 +86,7 @@ class PagesController extends AppController {
 				$customer = Conekta_Customer::create(array(
 						'cards' => array($_POST['conektaTokenId'])));
 				try {  
-					$plan = Conekta_Plan::retrieve($_POST['planId']); 
+					$plan = Conekta_Plan::find($_POST['planId']); 
 				} catch (Exception $e) {	
 					$plan = Conekta_Plan::create(array(
 						'id' => $_POST['planId'],
@@ -102,7 +102,6 @@ class PagesController extends AppController {
 				$subscription = $customer->createSubscription(array(
 				'plan' => $_POST['planId']
 				));
-				return 1;
 				return $this->redirect(array('controller' => 'charges','action' => 'index'));
 			} else {
 				$charge = Conekta_Charge::create(array('amount' => number_format($_POST['productPrice'] * 100, 0, ".", ""),

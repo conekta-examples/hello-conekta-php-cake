@@ -27,7 +27,7 @@
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
 	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
-	Router::connect('/process_webhook', array('controller' => 'webhooks', 'action' => 'process_webhook'));
+	Router::connect('/process_event', array('controller' => 'events', 'action' => 'process_event'));
 	
 /**
  * ...and connect the rest of 'Pages' controller's urls.

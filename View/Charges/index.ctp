@@ -15,7 +15,7 @@
         <td><?php echo $this->Html->link($charge['Charge']['id'],
 array('controller' => 'charges', 'action' => 'view', $charge['Charge']['id'])); ?></td>
 		<td><?php echo $charge['Charge']['status']; ?></td>
-        <td><?php echo $charge['Charge']['amount']; ?></td>
+        <td><?php echo number_format($charge['Charge']['amount'] / 100 0, ".", ""); ?></td>
         <td><?php echo $charge['Charge']['currency']; ?></td>
         <td><?php echo ($charge['Charge']['livemode']) ? 'true' : 'false'; ?></td>
         <td><?php echo $charge['Charge']['card_name']; ?></td>
