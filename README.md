@@ -9,7 +9,9 @@ Installation
 
 * To be able to run this example you will need to install a LAMP or XAMPP server in your machine. 
 * Install CakePHP and replace its contents with the contents of the repository.
-```git clone --recursive git@github.com:conekta/hello-conekta-php-cake.git```
+```
+git clone --recursive git@github.com:conekta/hello-conekta-php-cake.git
+```
 
 The --recursive flag will download Conekta PHP library, which is a submodule of this example and process payments.
 
