@@ -14,16 +14,16 @@ Installation
 The --recursive flag will download Conekta PHP library, which is a submodule of this example and process payments.
 
 * Configure app/Config/databse.php:
-`public $default = array(
-		'datasource' => 'Database/Mysql',
-		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'user',
-		'password' => 'password',
-		'database' => 'cake',
-		'prefix' => '',
-		//'encoding' => 'utf8',
-	);`
+    public $default = array(
+    		'datasource' => 'Database/Mysql',
+    		'persistent' => false,
+    		'host' => 'localhost',
+    		'login' => 'user',
+    		'password' => 'password',
+    		'database' => 'cake',
+    		'prefix' => '',
+    		//'encoding' => 'utf8',
+	    );
 * Create your database.
 ![alt tag](https://raw.github.com/conekta/hello-conekta-php-cake/master/readme_files/db_charges.png)
 ![alt tag](https://raw.github.com/conekta/hello-conekta-php-cake/master/readme_files/db_events.png)
