@@ -25,7 +25,7 @@ The --recursive flag will download Conekta PHP library, which is a submodule of 
 		//'encoding' => 'utf8',
 	);`
 * Create your database.
-![alt tag](https://raw.github.com/conekta/hello-conekta-php-cake/master/readme_files/charges.png)
-![alt tag](https://raw.github.com/conekta/hello-conekta-php-cake/master/readme_files/events.png)
-![alt tag](https://raw.github.com/conekta/hello-conekta-php-cake/master/readme_files/products.png)
-![alt tag](https://raw.github.com/conekta/hello-conekta-php-cake/master/readme_files/webhooks.png)
+![alt tag](https://raw.github.com/conekta/hello-conekta-php-cake/master/readme_files/db_charges.png)
+![alt tag](https://raw.github.com/conekta/hello-conekta-php-cake/master/readme_files/db_events.png)
+![alt tag](https://raw.github.com/conekta/hello-conekta-php-cake/master/readme_files/db_products.png)
+![alt tag](https://raw.github.com/conekta/hello-conekta-php-cake/master/readme_files/db_webhooks.png)
