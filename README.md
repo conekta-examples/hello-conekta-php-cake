@@ -14,7 +14,8 @@ Installation
 The --recursive flag will download Conekta PHP library, which is a submodule of this example and process payments.
 
 * Configure app/Config/databse.php:
-```public $default = array(
+```
+  public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
