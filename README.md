@@ -1,4 +1,31 @@
-## hello-conekta-php-cake
-CakePHP app which implements payment calls via conekta-php.
+![alt tag](https://raw.github.com/conekta/hello-conekta-php-cake/master/readme_files/cover.png)
 
-To run it, install LAMP or XAMPP, CakePHP and replace the app folder contents with these files and folders. The app should run on http://localhost. Customize the configuration file in Config/database.php to connect it to the database of your choice.
+Conekta PHP Tutorial Using Cake
+=======================
+This is a tutorial on how to use Conekta PHP library. It bundles functionality to process credit cards for normal purchases and subscriptions.
+
+Installation
+=======================
+
+* To be able to run this example you will need to install a LAMP or XAMPP server in your machine. 
+* Install CakePHP and replace its contents with the contents of the repository.
+`git clone --recursive git@github.com:conekta/hello-conekta-php-cake.git`
+
+The --recursive flag will download Conekta PHP library, which is a submodule of this example and process payments.
+
+* Configure app/Config/databse.php:
+`public $default = array(
+		'datasource' => 'Database/Mysql',
+		'persistent' => false,
+		'host' => 'localhost',
+		'login' => 'user',
+		'password' => 'password',
+		'database' => 'cake',
+		'prefix' => '',
+		//'encoding' => 'utf8',
+	);`
+* Create your database.
+![alt tag](https://raw.github.com/conekta/hello-conekta-php-cake/master/readme_files/charges.png)
+![alt tag](https://raw.github.com/conekta/hello-conekta-php-cake/master/readme_files/events.png)
+![alt tag](https://raw.github.com/conekta/hello-conekta-php-cake/master/readme_files/products.png)
+![alt tag](https://raw.github.com/conekta/hello-conekta-php-cake/master/readme_files/webhooks.png)
