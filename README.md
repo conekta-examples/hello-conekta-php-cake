@@ -33,3 +33,7 @@ The --recursive flag will download Conekta PHP library, which is a submodule of 
 ![alt tag](https://raw.github.com/conekta/hello-conekta-php-cake/master/readme_files/db_events.png)
 ![alt tag](https://raw.github.com/conekta/hello-conekta-php-cake/master/readme_files/db_products.png)
 ![alt tag](https://raw.github.com/conekta/hello-conekta-php-cake/master/readme_files/db_webhooks.png)
+
+License
+-------
+Developed by [Conekta](https://www.conekta.io). Available with [MIT License](LICENSE).
