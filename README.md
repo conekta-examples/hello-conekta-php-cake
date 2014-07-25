@@ -9,24 +9,25 @@ Installation
 
 * To be able to run this example you will need to install a LAMP or XAMPP server in your machine. 
 * Install CakePHP and replace its contents with the contents of the repository.
-```
+
+```bash
 git clone --recursive git@github.com:conekta/hello-conekta-php-cake.git
 ```
 
 The --recursive flag will download Conekta PHP library, which is a submodule of this example and process payments.
 
 * Configure app/Config/databse.php:
-```
-  public $default = array(
-		'datasource' => 'Database/Mysql',
-		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'user',
-		'password' => 'password',
-		'database' => 'cake',
-		'prefix' => '',
-		//'encoding' => 'utf8',
-	);
+```php
+public $default = array(
+	'datasource' => 'Database/Mysql',
+	'persistent' => false,
+	'host' => 'localhost',
+	'login' => 'user',
+	'password' => 'password',
+	'database' => 'cake',
+	'prefix' => '',
+	//'encoding' => 'utf8',
+);
 ```
 * Create your database.
 ![alt tag](https://raw.github.com/conekta/hello-conekta-php-cake/master/readme_files/db_charges.png)
