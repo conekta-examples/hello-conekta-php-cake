@@ -21,12 +21,12 @@ The --recursive flag will download Conekta PHP library, which is a submodule of 
 public $default = array(
 	'datasource' => 'Database/Mysql',
 	'persistent' => false,
-	'host' 		 => 'localhost',
-	'login' 	 => 'user',
-	'password' 	 => 'password',
-	'database' 	 => 'cake',
-	'prefix' 	 => '',
-	//'encoding' 	=> 'utf8',
+	'host' => 'localhost',
+	'login' => 'user',
+	'password' => 'password',
+	'database' => 'cake',
+	'prefix' => '',
+	//'encoding' => 'utf8',
 );
 ``` 
 * Create your database.
