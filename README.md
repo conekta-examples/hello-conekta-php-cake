@@ -28,7 +28,7 @@ public $default = array(
 	'prefix' 	 => '',
 	//'encoding' 	=> 'utf8',
 );
-```
+``` 
 * Create your database.
 ![alt tag](https://raw.github.com/conekta/hello-conekta-php-cake/master/readme_files/db_charges.png)
 ![alt tag](https://raw.github.com/conekta/hello-conekta-php-cake/master/readme_files/db_events.png)
